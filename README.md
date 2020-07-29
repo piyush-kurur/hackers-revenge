@@ -31,15 +31,18 @@ the next Modern-Art festival with not even the shrewdest critic
 suspecting any foul play.
 
 This repository collects .org files that I use to deal with some of
-these unreasonable demands. They do not try to match every typesetting
+these unreasonable demands. These are in no way _idiomatic_ and are
+merely hacks that I use to get things done. Needless to say they are
+not worth emulating. Also they do not try to match every typesetting
 fantasy that has ever been dreamt up by these folks, but merely
 handles the most obvious things that they look for -- namely tables,
-numbering (cross referencing has not been invented in the 21st
-century). We use the one weakness that the enemy have --- it is very
-difficult for a average office suite (some times rather perversely
-called productivity suites) user to match the unreasonable demands of
-the bureaucrats. So LaTeX's font selections etc are often forgiven.
-
+numbering (no other means of cross referencing has yet been invented
+in the 21st century). It is very difficult for a average office suite
+(some times rather perversely called productivity suites) user to
+match the unreasonable demands of the bureaucrats and hence say
+LaTeX's font selections etc are often forgiven. However, be warned
+that nothing is guaranteed (thankfully they have not evolved to
+perceive colours).
 
 A note to prospective users of this code/files. You are dealing with a
 formidable enemy here, do not be under any illusion that you can have
