@@ -90,9 +90,11 @@ Signature of Course Teacher
    have our favourite multi-column spanning text.
 
 2. The general suggestion is to use org table to do the calculation
-   and then convert it into the table.el format (so that we can add
+   and then convert it into the ~table.el~ format (so that we can add
    all the multi-column stuff).
 
-3. Exporting the tables to .ods can be done by first exporting to html
-   and then cutting and pasting it into libreoffice. The odt route
-   does not seems to be working.
+3. Exporting the tables to ~.ods~ can be done by first exporting to
+   html and then cutting and pasting it into libreoffice. Directly
+   exporting to ~.odt~ does not seems to be working. If only the
+   grading format table was a bit more sensible, we could have used
+   the export to csv feature of org.
