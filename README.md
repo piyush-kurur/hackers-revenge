@@ -17,16 +17,18 @@ these formats.
    force of numbers particularly when arranged like the skyline of
    South Mumbai.
 
-2. Arbitrary numbering of lists -- You have 3.2, 4.i and 42.a in the
-   same document list. The only point of this scheme of numbering is
-   to frustrate the average TeX users (to hell with your
+2. Arbitrary numbering of lists -- 3.2, 4.i and 42.a in the same
+   enumerate list (bullet list and description list is not yet
+   invented). The only point of this scheme of numbering is to
+   frustrate the average TeX users (to hell with your
    `\begin{enumerate}`) so much that they might start thinking about
-   libreoffice or god forbid even the office suites of Microsoft.
+   bloatwares like libreoffice or god forbid even the office suites of
+   Microsoft.
 
 3. And finally to kill whatever aesthetics is left, all kinds
    interplay of bold and italics fonts.
 
-The sum result of all the above is a document that can be exhibited in
+The net result of all the above is a document that can be exhibited in
 the next Modern-Art festival with not even the shrewdest critic
 suspecting any foul play.
 
@@ -41,8 +43,8 @@ in the 21st century). It is very difficult for a average office suite
 (some times rather perversely called productivity suites) user to
 match the unreasonable demands of the bureaucrats and hence say
 LaTeX's font selections etc are often forgiven. However, be warned
-that nothing is guaranteed (thankfully they have not evolved to
-perceive colours).
+that nothing is guaranteed. They might evolve and in the near future,
+might acquire the ability to perceive colours.
 
 A note to prospective users of this code/files. You are dealing with a
 formidable enemy here, do not be under any illusion that you can have
