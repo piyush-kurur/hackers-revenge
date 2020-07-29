@@ -43,7 +43,7 @@ in the 21st century). It is very difficult for a average office suite
 (some times rather perversely called productivity suites) user to
 match the unreasonable demands of the bureaucrats and hence say
 LaTeX's font selections etc are often forgiven. However, be warned
-that nothing is guaranteed. They might evolve and in the near future,
+that nothing is guaranteed. They might evolve, and in the near future,
 might acquire the ability to perceive colours.
 
 A note to prospective users of this code/files. You are dealing with a
