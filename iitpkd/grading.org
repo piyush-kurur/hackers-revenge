@@ -1,0 +1,98 @@
+#+OPTIONS: toc:nil
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX: \iffalse
+* Submitted Grading
+#+LATEX: \fi
+
++-------------------+---------------------------------------------+---------------------+
+|Course Code:       |                Course Title:                |  No of Credits: 3   |
+|                   |                                             |                     |
++-------------------+-----------------------+-------------+-------+---------------------+
+|Course Teacher: Piyush P Kurur             |             |       Department: CSE       |
++-------+-----------+-----------------------+-------------+-------+------------+--------+
+| S. No |   Roll no |         Name          | Total Marks | Grade | Attendence | (G/VG) |
++-------+-----------+-----------------------+-------------+-------+------------+--------+
+|     1 | 00000000  |Amitabh Bachan         |     100     |   S   |     96     |   VG   |
++-------+-----------+-----------------------+-------------+-------+------------+--------+
+|     2 | 00000001  |RajaniKanth            |     110     |  S+   |     96     |   VG   |
++-------+-----------+-----------------------+-------------+-------+------------+--------+
+|  ...  |    ...    | ...                   |     ..      |  ...  |    ...     |   ..   |
++-------+-----------+-----------------------+-------------+-------+------------+--------+
+
+
+
+#+LATEX: \iffalse
+**Statistics
+#+LATEX: \fi
+
+#+ATTR_LATEX: :align |l|l|
+|----------------+------|
+| Maximum Marks  |      |
+| Minimum Marks  |      |
+| Average        |      |
+|----------------+------|
+
+#+LATEX: \iffalse
+** Suggested Grade
+#+LATEX: \fi
+
++--------------------------+
+|     Suggested Grade      |
++-------+-------+----------+
+| Grade | Marks | Students |
++-------+-------+----------+
+| S     |       |          |
++-------+-------+----------+
+| A     |       |          |
++-------+-------+----------+
+| B     |       |          |
++-------+-------+----------+
+| C     |       |          |
++-------+-------+----------+
+| D     |       |          |
++-------+-------+----------+
+| E     |       |          |
++-------+-------+----------+
+| U     |       |          |
++-------+-------+----------+
+| I     |       |          |
++-------+-------+----------+
+| W     |       |          |
++-------+-------+----------+
+|       | Total |          |
++-------+-------+----------+
+
+
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX: \vfill
+
+\begin{multicols}{2}
+
+
+\begin{flushleft}
+Date: 27th July 2020
+\columnbreak
+
+\begin{flushright}
+Signature of Course Teacher
+\end{flushleft}
+
+\end{multicols}
+
+
+
+#+TBLFM: $3=vsum(@-I..@-II)
+
+* COMMENT Documentation.
+
+1. The \iffalse gymnastics that you see for the previous headings are
+   to suppress it in the output. We don't need no header text when we
+   have our favourite multi-column spanning text.
+
+2. The general suggestion is to use org table to do the calculation
+   and then convert it into the table.el format (so that we can add
+   all the multi-column stuff).
+
+3. Exporting the tables to .ods can be done by first exporting to html
+   and then cutting and pasting it into libreoffice. The odt route
+   does not seems to be working.
