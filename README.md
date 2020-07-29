@@ -25,7 +25,7 @@ these formats.
    bloatwares like libreoffice or god forbid even the office suites of
    Microsoft.
 
-3. And finally to kill whatever aesthetics is left, all kinds
+3. And finally to kill whatever aesthetics is left, all kinds of
    interplay of bold and italics fonts.
 
 The net result of all the above is a document that can be exhibited in
