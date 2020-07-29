@@ -18,7 +18,7 @@ these formats.
    South Mumbai.
 
 2. Arbitrary numbering of lists -- 3.2, 4.i and 42.a in the same
-   enumerate list (bullet list and description list is not yet
+   enumerate list (bullet list and description list are not yet
    invented). The only point of this scheme of numbering is to
    frustrate the average TeX users (to hell with your
    `\begin{enumerate}`) so much that they might start thinking about
