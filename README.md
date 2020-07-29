@@ -20,8 +20,8 @@ these formats.
 2. Arbitrary numbering of lists -- You have 3.2, 4.i and 42.a in the
    same document list. The only point of this scheme of numbering is
    to frustrate the average TeX users (to hell with your
-   begin{enumerate}) so much that they might think about the
-   libreoffice or some such bloatware.
+   `\begin{enumerate}`) so much that they might start thinking about
+   libreoffice or god forbid even the office suites of Microsoft.
 
 3. And finally to kill whatever aesthetics is left, all kinds
    interplay of bold and italics fonts.
