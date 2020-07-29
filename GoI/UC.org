@@ -1,0 +1,166 @@
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+OPTIONS: toc:nil author:nil date:nil
+#+TITLE: GFR 12-A
+#+SUBTITLE: \textsc{Form of Utilisation Certificate (UC)}
+#+LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist[enumerate,2]{label=\roman*)}
+
+Utilisation Certificate for the year 2020 in respect of Recurring
+Grants-In-Aid/Salaries/General Component/Recurring
+
+
+1. /Name of the scheme:/ GARBAGE/AND/MORE/OF/IT
+
+   - Project Title :: The art of wasting time on worthless documents.
+
+2. /Whether Recurring or Non-Recurring:/ Non-Recurring
+
+3. /Grant position at the beginning of financial year:/ 0
+
+    1. /Cash in Hand:/ 0
+
+    2. /Unadjusted advances:/ 0
+
+    3. /Total:/ 0
+
+4. Details of the grants received, expenditure incurred, closing balances:
+
++---------+--------+---------+----------------------------------+-----------+-----------+--------+
+| Unspent |        |Interest |                                  |Total      |           |Closing |
+|Balances |Interest|Deposited|         Grants received          |Available  |Expenditure|Balaance|
+|         | Earned |back     |                                  |funds      |incurred   |(5 - 6) |
+|         |        |         |                                  |(1+2+3+4)  |           |        |
++---------+--------+---------+----------------------------------+-----------+-----------+--------+
+|  (1)    |  (2)   |   (3)   |               (4)                |   (5)     |    (6)    |  (7)   |
+|         |        |         |                                  |           |           |        |
++---------+--------+---------+--------------+----------+--------+-----------+-----------+--------+
+|         |        |         | Sanction no  | Date     | Amount |           |           |        |
+|         |        |         |              |          |        |           |           |        |
++---------+--------+---------+--------------+----------+--------+-----------+-----------+--------+
+|  0      |   0    |  0      |    Nil       |          |        |           |           |   0    |
+|         |        |         |              |          |        |           |           |        |
+|         |        |         |              |          |        |           |           |        |
+|         |        |         |              |          |        |           |           |        |
+|         |        |         |              |          |        |           |           |        |
+|         |        |         |              |          |        |           |           |        |
++---------+--------+---------+--------------+----------+--------+-----------+-----------+--------+
+
+5. [@5] Component wise utilisation of grants
+   #+ATTR_LATEX: :align |l|l|l|l|
+   |--------------+--------------+----------------+-------|
+   | Grant-in-aid | Grant-in-aid | Grant-in-aid   | Total |
+   | General      | Salary       | Capital Assets |       |
+   |--------------+--------------+----------------+-------|
+   | 0            | 0            | 0              | 0     |
+   |--------------+--------------+----------------+-------|
+
+
+6. [@6] /Grant position at the end of financial year:/ 0
+
+    1. /Cash in Hand:/ 0
+
+    2. /Unadjusted advances:/ 0
+
+    3. /Total:/ 0
+
+#+LATEX: \setlist[enumerate,1]{label=\Roman*.} \newpage
+
+Certified that I have satisfied myself that the conditions on which
+grants were sanctioned have been duly fulfilled/are being fulfilled
+and that I have exercised following checks to see that the money has
+been actually utilized for the purpose which it was sanctioned.
+
+1. The main accounts and other subsidiary accounts and registers
+   (including assets registers) are maintained as prescribed in the
+   relevant Act/Rules/Standing instructions (mention the act/Rules)
+   and have been duly audited by designated auditors. The figures
+   depicted above tally with the audited figures mentioned in
+   financial statements/accounts.
+
+2. There exist internal controls for safeguarding public funds/assets,
+   watching outcomes and achievements of physical targets against the
+   financial inputs, ensuring quality in asset creation etc. & the
+   periodic evaluation of internal controls is exercised to ensure
+   their effectiveness.
+
+3. To the best of our knowledge and belief, no transactions have been
+   entered that are in violation of relevant Act/Rules/standing
+   instructions and scheme guidelines.
+
+4. The responsibilities among the key functionaries for execution of
+   the scheme have been assigned in clear terms and are not general in
+   nature.
+
+5. The benefits were extended to the intended beneficiaries and only
+   such areas/districts were covered where the scheme was intended to
+   operate.
+
+6. The expenditure on various components of the scheme was in the
+   proportions authorized as per the scheme guidelines and terms and
+   conditions of the grants-in-aid.
+
+7. It has been ensured that the physical and financial performance
+   under /_ICPS scheme_/ has been according to the requirements, as
+   prescribed in the guidelines issued by Govt. of India and the
+   performance/targets achieved statement for the year to which the
+   utilization of the fund resulted in outcomes given at Annexure-I
+   duly enclosed.
+
+8. The utilization of the fund resulted in outcomes given at
+   Annexure-II duly enclosed (to be formulated by the
+   Ministry/Department concerned as per their
+   requirements/specifications)
+
+9. Details of various schemes executed by the agency through
+   grants-in-aid received from the same Ministry or from other
+   Ministries is enclosed at Annexure-II (to be formulated by the
+   Ministry/Department concerned as per their
+   requirements/specifications)
+
+   - Date  ::
+   - Place :: Your Location
+
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX: \vfill
+
+\begin{multicols}{3}
+
+
+\begin{flushleft}
+
+Your Name\\
+Principal Investigator
+\end{flushleft}
+
+\columnbreak
+
+\begin{flushleft}
+
+
+Institute Finance and Accounts Section
+
+\end{flushleft}
+
+\columnbreak
+
+\begin{flushleft}
+Head of your Organisation
+
+\end{flushleft}
+
+\end{multicols}
+
+* COMMENT Documentation
+
+This document tries to incorporate all the ugliness of
+https://dst.gov.in/sites/default/files/UC-12-A.pdf in this one org
+file.
+
+1. As always keep a sane org table just below the ~table.el~ main
+   table where all calculation is done. You can put it under a
+   subsection and hide it by marking it as a ~COMMENT~ much like this
+   section.
+
+2. The officials who are supposed to sign the document might change in
+   your case. Edit it suitably.
