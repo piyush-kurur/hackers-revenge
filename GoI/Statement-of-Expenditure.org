@@ -1,0 +1,96 @@
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+OPTIONS: toc:nil author:nil date:nil
+#+TITLE: \textsc{Request for Annual Instalment}
+#+SUBTITLE: \textsc{with} \\
+#+SUBTITLE: \textsc{Statement of Expenditure (SE)}\\
+#+SUBTITLE: \textsc{(recurring/non-recurring)}
+#+LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist[enumerate,2]{label=\roman*)}
+#+LATEX: \setlist[enumerate,2]{label=\alpha*.}
+
+1. /Sanction Letter No:/ GARBAGE/AND/MORE/OF/IT
+2. /Total Project Cost:/
+3. /Sanctioned Cost:/ 0
+4. /Date of Commencement:/
+5. /Grant Received:/
+
+   #+ATTR_LATEX: :align |l|l|l| :center nil
+   |---+----------+--------|
+   | a | 1st Year | 0      |
+   | b | 2nd Year |        |
+   | c | 3rd Year |        |
+   | d | Interest |        |
+   |---+----------+--------|
+   | e | Total    | 0      |
+   |---+----------+--------|
+
+
+6. [@6] Statement of Expenditure
+
++------+---------------------+-----------------+--------------------------------+-------+
+|      |                     |                 |  Expenditure Incurred          |       |
+|      |                     |                 +----------+----------+----------+       |
+| S No | Head of Expenditure | Amount Received | 1st Year | 2nd Year | 3rd Year | Total |
++------+---------------------+-----------------+----------+----------+----------+-------+
+|  1   | Project Staff (JRF) |        0        |          |          |          |       |
++------+---------------------+-----------------+----------+----------+----------+-------+
+|  2   | Consumable          |        0        |          |          |          |       |
++------+---------------------+-----------------+----------+----------+----------+-------+
+|  3   | Contingencies       |        0        |          |          |          |       |
++------+---------------------+-----------------+----------+----------+----------+-------+
+|  4   | Travel              |        0        |          |          |          |       |
++------+---------------------+-----------------+----------+----------+----------+-------+
+|  5   | Overheads           |        0        |    0     |          |          |   0   |
++------+---------------------+-----------------+----------+----------+----------+-------+
+|      | Total               |        0        |    0     |          |          |   0   |
++------+---------------------+-----------------+----------+----------+----------+-------+
+#+TBLFM: @7$3=vsum(@-I..@-II)::@7$4=vsum(@-I..@-II)
+
+7. [@7] /Funds released so far:/
+8. /Date of start of project:/
+9. /Date of Completion:/
+
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX: \vfill
+
+\begin{multicols}{3}
+
+\begin{flushleft}
+
+Your Name\\
+Principal Investigator
+\end{flushleft}
+
+\columnbreak
+
+\begin{flushleft}
+
+Name of Finance Head
+Designation
+
+\end{flushleft}
+
+\columnbreak
+
+\begin{flushleft}
+
+Name of Institue Head
+Designation
+\end{flushleft}
+
+\end{multicols}
+
+* COMMENT Documentation
+
+This document tries to incorporate all the ugliness of
+https://dst.gov.in/sites/default/files/3-Formats%20Statement%20of%20Expenditure.pdf
+in this one org file.
+
+1. As always keep a sane org table just below the ~table.el~ main
+   table where all calculation is done. You can put it under a
+   subsection and hide it by marking it as a ~COMMENT~ much like this
+   section.
+
+2. The officials who are supposed to sign the document might change in
+   your case. Edit it suitably.
