@@ -32,7 +32,7 @@ The net result of all the above is a document that can be exhibited in
 the next Modern-Art festival with not even the shrewdest critic
 suspecting any foul play.
 
-This repository collects .org files that I use to deal with some of
+This repository collects `.org` files that I use to deal with some of
 these unreasonable demands. These are in no way _idiomatic_ and are
 merely hacks that I use to get things done. Needless to say they are
 not worth emulating. Also they do not try to match every typesetting
