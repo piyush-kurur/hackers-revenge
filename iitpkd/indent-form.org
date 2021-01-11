@@ -1,12 +1,9 @@
 #+LATEX_CLASS_OPTIONS: [a4paper]
 #+OPTIONS: toc:nil author:nil date:nil
-#+TITLE: \textsc{ }
-#+SUBTITLE:
 
 #+LATEX_HEADER: \usepackage{tabularx}
 #+ATTR_LATEX: :align right :width \textwidth
 [[./images/indentform-header.jpg]]
-
 
 #+LATEX: \hrule
 #+LATEX: \vspace{1cm}
@@ -15,11 +12,13 @@
 \textsc{Purchase Proposal (Less Than/Upto 2.5 Lakhs)}
 #+LATEX: \end{centre}
 
+
+
 #+ATTR_LATEX: :environment longtable  :width \textwidth :align |l|l|
 |------------------------------+--------------------------------------|
 | Date                         |                                      |
 |------------------------------+--------------------------------------|
-| Name of the Indentor and     | Some body, Some dept                 |
+| Name of the Indentor and     | Piyush P Kurur, Dept of CSE          |
 | Department/Section           |                                      |
 |------------------------------+--------------------------------------|
 | Type of Lab                  | Teaching/Research/                   |
@@ -36,25 +35,31 @@
 | Brief Justification (for     |                                      |
 | not having prior approval)   |                                      |
 |------------------------------+--------------------------------------|
-| Project Title and Project No |                                      |
+| Project Title and Project No | Life, Universe, and everything; 42   |
 |------------------------------+--------------------------------------|
 
 
 
-#+ATTR_LATEX: :environment longtable  :align |l|l|l|l|l|
-|------+-------------------------------------+------+-----------+-------|
-| S no | Item Description (or) Scope of Work | Qnty | Unit Rate | Total |
-|      |                                     |      | (INR)     | (INR) |
-|------+-------------------------------------+------+-----------+-------|
-|      |                                     |      |           |       |
-|------+-------------------------------------+------+-----------+-------|
-|      | Total Amount  (INR)                 |      |           |       |
-|------+-------------------------------------+------+-----------+-------|
-|      | GST @ (INR)                         |      |           |       |
-|------+-------------------------------------+------+-----------+-------|
-|      | Grand Total                         |      |           |       |
-|------+-------------------------------------+------+-----------+-------|
 
+#+ATTR_LATEX: :environment longtable  :align |l|l|l|l|l|
+| $ |      | gstrate=10                          |      |           |       |
+|---+------+-------------------------------------+------+-----------+-------|
+|   | S no | Item Description (or) Scope of Work | Qnty | Unit Rate | Total |
+|   |      |                                     |      |     (INR) | (INR) |
+|---+------+-------------------------------------+------+-----------+-------|
+| # |    1 | Stuff                               |    2 |        23 |    46 |
+| # |    2 | Some more stuff                     |   10 |         2 |    20 |
+|---+------+-------------------------------------+------+-----------+-------|
+| _ |      |                                     |      |           | total |
+| # |      | Total Amount  (INR)                 |      |           |    66 |
+|---+------+-------------------------------------+------+-----------+-------|
+| _ |      |                                     |      |           |   gst |
+| # |      | GST   (INR)                         |      |           |   6.6 |
+|---+------+-------------------------------------+------+-----------+-------|
+| _ |      |                                     |      |           | grand |
+| # |      | Grand Total (Rounded)               |      |           |    71 |
+|---+------+-------------------------------------+------+-----------+-------|
+#+TBLFM: $6=$-1 * $-2::$grand=$total + $gst; %.0f::$gst=$total * $gstrate /100.0::$total=vsum(@-I..@-II)
 
 - Ruppes in Word ::
 
