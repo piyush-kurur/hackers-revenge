@@ -1,0 +1,83 @@
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+OPTIONS: toc:nil author:nil date:nil
+#+TITLE: \textsc{ }
+#+SUBTITLE:
+
+#+LATEX_HEADER: \usepackage{tabularx}
+#+ATTR_LATEX: :align right :width \textwidth
+[[./images/indentform-header.jpg]]
+
+
+#+LATEX: \hrule
+#+LATEX: \vspace{1cm}
+
+#+LATEX: \begin{centre}
+\textsc{Purchase Proposal (Less Than/Upto 2.5 Lakhs)}
+#+LATEX: \end{centre}
+
+#+ATTR_LATEX: :environment longtable  :width \textwidth :align |l|l|
+|------------------------------+--------------------------------------|
+| Date                         |                                      |
+|------------------------------+--------------------------------------|
+| Name of the Indentor and     | Some body, Some dept                 |
+| Department/Section           |                                      |
+|------------------------------+--------------------------------------|
+| Type of Lab                  | Teaching/Research/                   |
+|                              | Shared Institute Facilty/Others      |
+|------------------------------+--------------------------------------|
+| Campus                       | Transit/Permanent/Temporary          |
+|------------------------------+--------------------------------------|
+| Debitable Head               | Institute Grant/Hostel Account/      |
+|                              | Project Fund/ Seed Grant/CPDA/Others |
+|------------------------------+--------------------------------------|
+| Detail of Prior Budget       |                                      |
+| Approval                     |                                      |
+|------------------------------+--------------------------------------|
+| Brief Justification (for     |                                      |
+| not having prior approval)   |                                      |
+|------------------------------+--------------------------------------|
+| Project Title and Project No |                                      |
+|------------------------------+--------------------------------------|
+
+
+
+#+ATTR_LATEX: :environment longtable  :align |l|l|l|l|l|
+|------+-------------------------------------+------+-----------+-------|
+| S no | Item Description (or) Scope of Work | Qnty | Unit Rate | Total |
+|      |                                     |      | (INR)     | (INR) |
+|------+-------------------------------------+------+-----------+-------|
+|      |                                     |      |           |       |
+|------+-------------------------------------+------+-----------+-------|
+|      | Total Amount  (INR)                 |      |           |       |
+|------+-------------------------------------+------+-----------+-------|
+|      | GST @ (INR)                         |      |           |       |
+|------+-------------------------------------+------+-----------+-------|
+|      | Grand Total                         |      |           |       |
+|------+-------------------------------------+------+-----------+-------|
+
+
+- Ruppes in Word ::
+
+
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX: \vfill
+
+\begin{multicols}{2}
+
+
+\begin{flushleft}
+
+Indentor
+\end{flushleft}
+
+
+
+\columnbreak
+
+\begin{flushleft}
+
+Faculty (End User)/ Head of Section
+
+\end{flushleft}
+
+\end{multicols}
