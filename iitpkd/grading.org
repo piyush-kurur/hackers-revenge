@@ -22,7 +22,7 @@
 
 
 #+LATEX: \iffalse
-**Statistics
+** Statistics
 #+LATEX: \fi
 
 #+ATTR_LATEX: :align |l|l|
@@ -98,3 +98,11 @@ Signature of Course Teacher
    exporting to ~.odt~ does not seems to be working. If only the
    grading format table was a bit more sensible, we could have used
    the export to csv feature of org.
+
+
+** Epilogue: Hurray
+
+Thankfully, due to the automation, we no more have to work with this
+abomination. Present in this repository as a record of one of the many
+sufferings of an average Joe faculty in the Spanish inquisition style
+last class committee.
