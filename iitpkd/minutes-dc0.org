@@ -1,0 +1,52 @@
+#+LATEX_CLASS_OPTIONS: [a4paper, 11pt, fullpage]
+#+AUTHOR:
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+TITLE: Indian Institute of Technology Palakkad
+#+SUBTITLE: Minutes of the Zeroth DC/GTC meeting\\
+#+SUBTITLE: (Approval of courses)
+#+LATEX_HEADER: \usepackage[disable,obeyFinal,colorinlistoftodos]{todonotes}
+#+LATEX_HEADER: \usepackage[margin=3cm]{geometry}
+#+LATEX_HEADER: %% Todo notes should become invisible in the final version.
+#+DATE:
+
+#+LATEX: \iffalse
+* Approval of courses
+#+LATEX: \fi
+
+- Name of the Research Scholar  ::
+- Discipline/Area of Research   ::
+- Name of the Research Guide(s) ::
+- Chairman DC/GTC               ::
+
+*** Two compulsory courses
+
+  1. CS6004 Logic
+  2. CS5619 Synthesis of Digital Systems
+
+*** Four Elective
+
+  1. CS5618 Real time systems
+  2. Functional programming
+  3. Any course on Advanced architecture
+  4. Any course on Proof Assistants and Certified programming
+
+#+LATEX_HEADER: \usepackage{tabu}
+#+ATTR_LATEX: :environment tabu  :align |l|p{6cm}|
+|----------------------------+------------|
+| Name of the DC/GTC members | Signatures |
+|----------------------------+------------|
+|                            |            |
+|                            |            |
+|                            |            |
+|                            |            |
+|                            |            |
+|----------------------------+------------|
+
+\vspace{0.5cm}
+
+- Signature of the Guide ::
+
+\vspace{0.5cm}
+
+- Signature of the Chariman DC/GTC ::
