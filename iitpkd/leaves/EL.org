@@ -1,45 +1,46 @@
 #+LATEX_CLASS_OPTIONS:[10pt]
 #+OPTIONS: toc:nil author:nil date:nil  num:nil
 #+LATEX_HEADER: \usepackage{tabularx}
-#+LATEX_HEADER: \usepackage{fullpage}
+# #+LATEX_HEADER: \usepackage{fullpage}
 #+LATEX_HEADER: \usepackage{multicol}
-
+#+LATEX_HEADER: \newcommand{\myblank}[1]{\mbox{\hspace{#1}}}
 **** Application for Leave or Extension of Leave
 
 #+LATEX: \begin{center}
 \small{Earned/Half Pay/Extra Ordinary/Commuted/Vacation/Maternity/Paternity}
 #+LATEX: \end{center}
 
-|--------------------------+--------------|
-| Name                     | Ranjni kant  |
-|--------------------------+--------------|
-| Post held                | Actor        |
-|--------------------------+--------------|
-| Department               | CSE          |
-|--------------------------+--------------|
-| Nature of Leave          | Vacation     |
-|--------------------------+--------------|
-|                          |              |
-| Period of Leave          |              |
-|                          |              |
-| Prefix Holidays          |              |
-|                          |              |
-| Suffix Holidays          |              |
-|                          |              |
-| Station Leave Required?  |              |
-|--------------------------+--------------|
-| Purpose                  | Movie making |
-|--------------------------+--------------|
-| Alternative Arrangements | None         |
-|--------------------------+--------------|
-| Address during Leave     | Some where   |
-|--------------------------+--------------|
-| Phone no during leave    | 942424242    |
-|--------------------------+--------------|
++--------------------------+--------------------------------+
+| Name                     | Ranjni kant                    |
++--------------------------+--------------------------------+
+| Post held                | Actor                          |
++--------------------------+--------------------------------+
+| Department               | CSE                            |
++--------------------------+--------------------------------+
+| Nature of Leave          | Vacation                       |
++--------------------------+----------+-----------+---------+
+|                          |From      |To         | Duration|
++--------------------------+----------+-----------+---------+
+| Period of Leave          |20-12-2021|22-12-2021 |3        |
++--------------------------+----------+-----------+---------+
+| Prefix Holidays          | NA       |NA         |NA       |
++--------------------------+----------+-----------+---------+
+| Suffix Holidays          | NA       | NA        |NA       |
++--------------------------+----------+-----------+---------+
+|Station Leave Required?   |20-12-2021|22-12-2021 | 3       |
++--------------------------+----------+-----------+---------+
+| Purpose                  | Movie making                   |
++--------------------------+--------------------------------+
+| Alternative Arrangements | None                           |
++--------------------------+--------------------------------+
+| Address during Leave     | Some where                     |
++--------------------------+--------------------------------+
+| Phone no during leave    | 942424242                      |
++--------------------------+--------------------------------+
 
 
-I +propose+ =/= do not propose to avail myself of Leave Travel Concession
-for the block year *2024* during the leave.
+I +propose+ \slash do not propose to avail myself of Leave Travel
+Concession for the block year *2024* during the leave.
 
 #+LATEX: \begin{flushright}
 #+LATEX: \vspace{0.5cm}
@@ -49,17 +50,17 @@ for the block year *2024* during the leave.
 
 ***** Remarks and Recommendation of the Controlling Officer:
 
-Recommended =/= Not Recommended
+Recommended \slash Not Recommended
 
 #+LATEX: \begin{flushright}
 #+LATEX: \vspace{0.5cm}
-Signature with Date HoD =/= Section Incharge
+Signature with Date HoD \slash Section Incharge
 #+LATEX: \end{flushright}
 
 ***** For use by the Administration Section
 
-Certified that _------_ (nature of the leave) for
-_-------_ period, from _---------_ to _--------_ is
+Certified that _\myblank{1cm}_ (nature of the leave) for
+_\myblank{0.5cm}_ period, from _\myblank{2cm}_ to _\myblank{2cm}_ is
 available as per following details
 
 #+ATTR_LATEX: :align |l|l|l|
