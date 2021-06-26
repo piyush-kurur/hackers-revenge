@@ -10,31 +10,32 @@
 \small{Earned/Half Pay/Extra Ordinary/Commuted/Vacation/Maternity/Paternity}
 #+LATEX: \end{center}
 
-|--------------------------+---|
-| Name                     |   |
-|--------------------------+---|
-| Post held                |   |
-|--------------------------+---|
-| Department               |   |
-|--------------------------+---|
-| Nature of Leave          |   |
-|--------------------------+---|
-| Period of Leave          |   |
-|--------------------------+---|
-| Prefix Holidays          |   |
-|--------------------------+---|
-| Suffix Holidays          |   |
-|--------------------------+---|
-| Purpose                  |   |
-|--------------------------+---|
-| Alternative Arrangements |   |
-|--------------------------+---|
-| Address during Leave     |   |
-|--------------------------+---|
-| Phone no during leave    |   |
-|--------------------------+---|
-| Station Leave Required?  |   |
-|--------------------------+---|
+|--------------------------+--------------|
+| Name                     | Ranjni kant  |
+|--------------------------+--------------|
+| Post held                | Actor        |
+|--------------------------+--------------|
+| Department               | CSE          |
+|--------------------------+--------------|
+| Nature of Leave          | Vacation     |
+|--------------------------+--------------|
+|                          |              |
+| Period of Leave          |              |
+|                          |              |
+| Prefix Holidays          |              |
+|                          |              |
+| Suffix Holidays          |              |
+|                          |              |
+| Station Leave Required?  |              |
+|--------------------------+--------------|
+| Purpose                  | Movie making |
+|--------------------------+--------------|
+| Alternative Arrangements | None         |
+|--------------------------+--------------|
+| Address during Leave     | Some where   |
+|--------------------------+--------------|
+| Phone no during leave    | 942424242    |
+|--------------------------+--------------|
 
 
 I +propose+ =/= do not propose to avail myself of Leave Travel Concession
