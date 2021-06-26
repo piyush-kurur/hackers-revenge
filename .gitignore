@@ -266,3 +266,6 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
+
+# Actual instances that has been filled.
+actual/
