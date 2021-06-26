@@ -90,8 +90,9 @@ Signature of Course Teacher
    have our favourite multi-column spanning text.
 
 2. The general suggestion is to use org table to do the calculation
-   and then convert it into the ~table.el~ format (so that we can add
-   all the multi-column stuff).
+   and then convert it into the ~table.el~ format using the command
+   org-table-create-with-table (C-c ~) (so that we can add all the
+   multi-column stuff).
 
 3. Exporting the tables to ~.ods~ can be done by first exporting to
    html and then cutting and pasting it into libreoffice. Directly
