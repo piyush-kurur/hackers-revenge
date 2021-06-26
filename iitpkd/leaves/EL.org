@@ -1,0 +1,121 @@
+#+LATEX_CLASS_OPTIONS:[10pt]
+#+OPTIONS: toc:nil author:nil date:nil  num:nil
+#+LATEX_HEADER: \usepackage{tabularx}
+#+LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage{multicol}
+
+**** Application for Leave or Extension of Leave
+
+#+LATEX: \begin{center}
+\small{Earned/Half Pay/Extra Ordinary/Commuted/Vacation/Maternity/Paternity}
+#+LATEX: \end{center}
+
+***** Name of the Applicant:
+
+***** Post held:
+
+***** Department:
+
+***** Nature of leave: Vacation leave
+
+***** Period of leave:
+
+
+#+ATTR_LATEX: :align |l|l|l|
+|------+----+----------|
+| From | To | Duration |
+|------+----+----------|
+|      |    |          |
+|------+----+----------|
+
+
+***** Sunday and Holiday to be prefixed/suffixed ::
+
+#+LATEX: \begin{multicols}{2}
+
+****** Prefix :
+
+#+ATTR_LATEX: :align |l|l|l|
+  |------+----+----------|
+  | From | To | Duration |
+  |------+----+----------|
+  |      |    |          |
+  |------+----+----------|
+
+#+LATEX: \columnbreak
+
+****** Suffix ::
+
+#+ATTR_LATEX: :align |l|l|l|
+|------+----+----------|
+| From | To | Duration |
+|------+----+----------|
+|      |    |          |
+|------+----+----------|
+#+LATEX: \end{multicols}
+
+***** Purpose:
+
+***** Alternative Arrangements (if any):
+
+***** Address or Contact number during leave:
+
+***** Whether Station leave is required: Yes
+
+#+ATTR_LATEX: :align |l|l|l|
+  |------+----+----------|
+  | From | To | Duration |
+  |------+----+----------|
+  |      |    |          |
+  |------+----+----------|
+
+
+I +propose+ =/= do not propose to avail myself of Leave Travel Concession
+for the block year _\hspace{1cm}_ during the leave.
+
+#+LATEX: \begin{flushright}
+#+LATEX: \vspace{0.5cm}
+Signature and Date
+#+LATEX: \end{flushright}
+
+***** Remarks and Recommendation of the Controlling Officer:
+
+Recommended =/= Not Recommended
+
+#+LATEX: \begin{flushright}
+#+LATEX: \vspace{0.5cm}
+Signature with Date HoD =/= Section Incharge
+#+LATEX: \end{flushright}
+
+***** For use by the Administration Section
+
+Certified that _\hspace{1cm}_ (nature of the leave) for
+_\hspace{0.5cm}_ period, from _\hspace{1cm}_ to _\hspace{1cm}_ is
+available as per following details
+
+#+ATTR_LATEX: :align |l|l|l|
+|--------+--------------------+-------------------|
+| Nature | Balance as on date | Leave applied for |
+|--------+--------------------+-------------------|
+|        |                    |                   |
+|--------+--------------------+-------------------|
+
+
+#+LATEX: \vfill
+#+LATEX: \begin{multicols}{3}
+#+LATEX: \begin{flushleft}
+Dealing assistant
+#+LATEX: \end{flushleft}
+#+LATEX: \columnbreak
+
+#+LATEX: \begin{center}
+Supdt =/= AR =/= DR
+#+LATEX: \end{center}
+
+#+LATEX: \columnbreak
+
+#+LATEX: \begin{flushright}
+Registrar
+#+LATEX: \end{flushright}
+
+#+LATEX: \end{multicols}
