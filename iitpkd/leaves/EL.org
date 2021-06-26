@@ -10,72 +10,40 @@
 \small{Earned/Half Pay/Extra Ordinary/Commuted/Vacation/Maternity/Paternity}
 #+LATEX: \end{center}
 
-***** Name of the Applicant:
-
-***** Post held:
-
-***** Department:
-
-***** Nature of leave: Vacation leave
-
-***** Period of leave:
-
-
-#+ATTR_LATEX: :align |l|l|l|
-|------+----+----------|
-| From | To | Duration |
-|------+----+----------|
-|      |    |          |
-|------+----+----------|
-
-
-***** Sunday and Holiday to be prefixed/suffixed ::
-
-#+LATEX: \begin{multicols}{2}
-
-****** Prefix :
-
-#+ATTR_LATEX: :align |l|l|l|
-  |------+----+----------|
-  | From | To | Duration |
-  |------+----+----------|
-  |      |    |          |
-  |------+----+----------|
-
-#+LATEX: \columnbreak
-
-****** Suffix ::
-
-#+ATTR_LATEX: :align |l|l|l|
-|------+----+----------|
-| From | To | Duration |
-|------+----+----------|
-|      |    |          |
-|------+----+----------|
-#+LATEX: \end{multicols}
-
-***** Purpose:
-
-***** Alternative Arrangements (if any):
-
-***** Address or Contact number during leave:
-
-***** Whether Station leave is required: Yes
-
-#+ATTR_LATEX: :align |l|l|l|
-  |------+----+----------|
-  | From | To | Duration |
-  |------+----+----------|
-  |      |    |          |
-  |------+----+----------|
+|--------------------------+---|
+| Name                     |   |
+|--------------------------+---|
+| Post held                |   |
+|--------------------------+---|
+| Department               |   |
+|--------------------------+---|
+| Nature of Leave          |   |
+|--------------------------+---|
+| Period of Leave          |   |
+|--------------------------+---|
+| Prefix Holidays          |   |
+|--------------------------+---|
+| Suffix Holidays          |   |
+|--------------------------+---|
+| Purpose                  |   |
+|--------------------------+---|
+| Alternative Arrangements |   |
+|--------------------------+---|
+| Address during Leave     |   |
+|--------------------------+---|
+| Phone no during leave    |   |
+|--------------------------+---|
+| Station Leave Required?  |   |
+|--------------------------+---|
 
 
 I +propose+ =/= do not propose to avail myself of Leave Travel Concession
-for the block year _\hspace{1cm}_ during the leave.
+for the block year *2024* during the leave.
 
 #+LATEX: \begin{flushright}
 #+LATEX: \vspace{0.5cm}
-Signature and Date
+# Signature should come here
+#+LATEX: \today
 #+LATEX: \end{flushright}
 
 ***** Remarks and Recommendation of the Controlling Officer:
@@ -89,8 +57,8 @@ Signature with Date HoD =/= Section Incharge
 
 ***** For use by the Administration Section
 
-Certified that _\hspace{1cm}_ (nature of the leave) for
-_\hspace{0.5cm}_ period, from _\hspace{1cm}_ to _\hspace{1cm}_ is
+Certified that _------_ (nature of the leave) for
+_-------_ period, from _---------_ to _--------_ is
 available as per following details
 
 #+ATTR_LATEX: :align |l|l|l|
