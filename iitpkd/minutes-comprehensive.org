@@ -1,0 +1,43 @@
+#+LATEX_CLASS_OPTIONS: [a4paper, 11pt, fullpage]
+#+AUTHOR:
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+TITLE: Indian Institute of Technology Palakkad
+#+SUBTITLE: Report of the Comprehensive Examination
+#+LATEX_HEADER: \usepackage[disable,obeyFinal,colorinlistoftodos]{todonotes}
+#+LATEX_HEADER: \usepackage[margin=3cm]{geometry}
+#+LATEX_HEADER: %% Todo notes should become invisible in the final version.
+#+DATE:
+
+#+LATEX: \iffalse
+* Approval of courses
+#+LATEX: \fi
+
+- Name of the Scholar ::
+- Department ::
+- Date and Time ::
+
+** Report
+
+   Some stuff about the comprehensive exam.
+
+#+LATEX_HEADER: \usepackage{tabu}
+#+ATTR_LATEX: :environment tabu  :align |l|p{6cm}|l|
+|--------+--------------------+-------|
+| Sl.No. | Name of the course | Grade |
+|--------+--------------------+-------|
+|        |                    |       |
+|--------+--------------------+-------|
+
+
+- Overall CGPA :: 8
+
+
+The candidate was asked questions from the syllabus for the
+comprehensive examination. He answered the questions _satisfactorily_.
+
+As per the performance, the scholar has _passed_ the Comprehensive Examination.
+
+*** DC Members
+
+*** Members of the Viva-voce Board
