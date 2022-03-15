@@ -1,44 +1,48 @@
 #+LATEX_CLASS_OPTIONS: [10pt, landscape, a4paper]
 #+OPTIONS: toc:nil author:nil date:nil
-#+TITLE: \
-#+SUBTITLE: \textsc{Statement of Immovable property return for the year 2021 as on 31 December 2021}
+#+TITLE: \small\textsc{Statement of Immovable property return for the year 2021 as on 31 December 2021}
 #+LATEX_HEADER: \usepackage{fullpage}
 #+LATEX_HEADER: \usepackage{enumitem}
 #+LATEX_HEADER: \usepackage{multicol}
 #+LATEX_HEADER: \setlist[enumerate,2]{label=\roman*)}
 
 #+LATEX: \begin{multicols}{3}
-- Employee ID :: _SOMEID_
-- Department :: _Computer Science and Engineering_
+- Employee ID ::
+- Department ::
 #+LATEX: \columnbreak
-- Name :: _Not sure_
-- Pay Level :: _000000-000000_
+- Name ::
+- Pay Level ::
 #+LATEX: \columnbreak
-- Designation :: _The infinitely prolonged_
-- Basic Pay :: _00000_
+- Designation ::
+- Basic Pay ::
 
 
  #+LATEX: \end{multicols}
+\small
+ #+ATTR_LATEX: :environment tabular :align |p{3cm}|p{3cm}|p{3.1cm}|p{2.2cm}|p{3cm}|p{3cm}|p{3cm}|p{1.5cm}|
+  |---------------------+------------------+----------------------+---------------+----------------------+---------------------+---------------+---------|
+  | Name of District,   | Name and Details | Cost of construction | Present Value | If not in own name   | How acquired        | Annual Income | Remarks |
+  | Subdivision, Taluk  | of Property      | /Acquirement (and    |               | state in whose       | whether by          | from property |         |
+  | and Village or City | Housing, Lands   | year when            |               | name held and        | purchase, lease     |               |         |
+  | in which property   | and other        | purchased            |               | his/her relationship | mortgage,           |               |         |
+  | is situate          | buildings        | Including of land in |               | to Govt Servant      | inheritance, gift   |               |         |
+  |                     |                  | case of house        |               |                      | or otherwise with   |               |         |
+  |                     |                  |                      |               |                      | date of acquisition |               |         |
+  |                     |                  |                      |               |                      | name with details   |               |         |
+  |                     |                  |                      |               |                      | of person from whom |               |         |
+  |                     |                  |                      |               |                      | acquired            |               |         |
+  |                     |                  |                      |               |                      |                     |               |         |
+  |---------------------+------------------+----------------------+---------------+----------------------+---------------------+---------------+---------|
+  | (1)                 | (2)              | (3)                  | (4)           | (5)                  | (6)                 | (7)           | (8)     |
+  |---------------------+------------------+----------------------+---------------+----------------------+---------------------+---------------+---------|
+  |                     |                  |                      |               |                      |                     |               |         |
+  |---------------------+------------------+----------------------+---------------+----------------------+---------------------+---------------+---------|
 
- #+ATTR_LATEX: :environment tabular :align |p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{2cm}|p{1.5cm}|
- |---------------------+------------------+----------------------+---------------+---------------------+----------------------+---------------+---------|
- | Name of District,   | Name and Details | Cost of construction | Present Value | If not in own name  | How acquired whether | Annual Income | Remarks |
- | Subdivision, Taluk  | of Property      | /Acquirement (and    |               | state in whose name | whether by           | from property |         |
- | and Village or City | Housing, Lands   | year when purchased) |               | held and his/here   | purchase, lease      |               |         |
- | in which property   | and other        | Including of land in |               | relationship to the | mortgage,            |               |         |
- | is situated         | buildings        | case of house        |               | Gove Servant        | inheritance, gift    |               |         |
- |                     |                  |                      |               |                     | or otherwise with    |               |         |
- |                     |                  |                      |               |                     | date of acquisition  |               |         |
- |                     |                  |                      |               |                     | name with details    |               |         |
- |                     |                  |                      |               |                     | of person from whom  |               |         |
- |                     |                  |                      |               |                     | acquired             |               |         |
- |---------------------+------------------+----------------------+---------------+---------------------+----------------------+---------------+---------|
- | (1)                 | (2)              | (3)                  | (4)           | (5)                 | (6)                  | (7)           | (8)     |
- |---------------------+------------------+----------------------+---------------+---------------------+----------------------+---------------+---------|
- |                     |                  |                      |               |                     |                      |               |         |
- |                     |                  |                      |               |                     |                      |               |         |
- |                     |                  |                      |               |                     |                      |               |         |
- |---------------------+------------------+----------------------+---------------+---------------------+----------------------+---------------+---------|
+
+- Signature ::
+- Name ::
+- Designation ::
+- Date ::
 
 
 
